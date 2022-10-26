@@ -5,12 +5,12 @@ def get_random_word(word):
     return random.choice(word)
 
 
-names = ["Peter", "Michell", "Jane", "Steve"]
+names = ["Peter", "Michell", "Jane", "Steve", "Stefka"]
 places = ["Sofia", "Plovdiv", "Varna", "Burgas"]
-verbs = ["eats", "holds", "sees", "plays with", "brings"]
-nouns = ["stones", "cake", "apple", "laptop", "bikes"]
+verbs = ["eats", "holds", "sees", "plays with", "brings", "ride"]
+nouns = ["stones", "cake", "apple", "laptop", "bikes", "horse"]
 adverbs = ["slowly", "diligently", "warmly", "sadly", "rapidly"]
-details = ["near the river", "at home", "in the park"]
+details = ["near the river", "at home", "in the park", "at the forest"]
 
 while True:
     random_name = get_random_word(names)
